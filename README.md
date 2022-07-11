@@ -18,6 +18,8 @@
 ### Setup
 - Run git clone (https://github.com/jomlink/weather-checker-web-app.git) 
 - once resources are available offline you can the index file with live server, you are good to go, once in browser enter the city you want to fetch termperature values
+- alternatively i have deployed it on netlify and see how it works, [here](https://globalweatherchecker.netlify.app/)
+
 ### Run tests
 - opened via live server to test the markup, the styles and Javascript
 
