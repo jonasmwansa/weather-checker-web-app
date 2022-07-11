@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="resources/css/index.css">
+    <title>weather checker home</title>
+</head>
+<body>
+<div class="container">
+    <div class="row header">
+        <div class="col">
+            <h1 class="text-center">current weather checker</h1>
+        </div>
+    </div>
+    <div class="row" id="input">
+        <div class="col">
+            <input  type="text" name="city-name" id="city-name" placeholder="enter city name">
+            <button type="submit" class="btn btn-primary btn-sm" id="search">search</button>
+        </div>
+        <div class="error-message"></div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="title text-center">
+                <h5 class="text-center">Description</h5>
+            </div>
+            <span id="weather-icon"></span>
+            <span id="description"></span>
+        </div>
+        <div class="col">
+            <div class="title text-center">
+                <h5 class="text-center">City/Country</h5>
+            </div>
+            <div id="city" class="text-center"></div>
+        </div>
+        <div class="col">
+            <div class="title text-center">
+                <h5 class="text-center">Temperature</h5>
+            </div>
+            <div id="temp" class="text-center"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="title">
+                <h5 class="text-center">More Information</h5>
+            </div>
+            <div id="more-information">
+                <div>
+                    <span>Max Temp: </span>
+                    <span id="max-temp"></span>
+                </div>
+                <div>
+                    <span>Min Temp: </span>
+                    <span id="min-temp"></span>
+                </div>
+                <div>
+                    <span>Humidity: </span>
+                    <span id="humid"></span>
+                </div>            
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="resources/js/index.js"></script>
+</body>
+</html>
