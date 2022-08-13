@@ -31,7 +31,7 @@
 
 ## 👤 Author: **Jonas Mwansa**
 
-- GitHub: [@jomlink](https://github.com/jomlink)
+- GitHub: [@jonasmwansa](https://github.com/jonasmwansa)
 - LinkedIn: [@jonas mwansa](https://www.linkedin.com/in/jonas-mwansa-787259155/)
 
 
